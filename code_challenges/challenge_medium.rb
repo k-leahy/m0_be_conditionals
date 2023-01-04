@@ -1,5 +1,5 @@
-age = 24
-good_driver = true
+age = 21
+good_driver = false
 
 if good_driver == true && age > 25
     puts "Get discount"
