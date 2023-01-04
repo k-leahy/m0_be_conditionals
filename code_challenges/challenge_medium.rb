@@ -1,11 +1,10 @@
-good_driving_record = true
 age = 24
+good_driver = true
 
-if good_driving_record == true && age>25
-    puts "Get discount pm car rental"
-    elsif good_driving_record == false && age < 25
-        "Need a cosigner"
-    else
-        "Pay full price"
-    end
-    
+if good_driver == true && age > 25
+    puts "Get discount"
+elsif good_driver == false && age < 25
+    puts "Need cosigner"
+else
+    puts "Pay full price"
+end
