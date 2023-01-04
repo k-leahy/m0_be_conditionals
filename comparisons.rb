@@ -100,4 +100,4 @@ puts loves_to_play || loves_dog_park
 # Determine if the dog loves to play and is a puppy
 puts loves_to_play && age < 1
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: false because I set the conditional to less than 1 and this dog is 1 even though the first part of the conditional is met the second part is not met.
